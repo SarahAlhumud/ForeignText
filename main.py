@@ -11,7 +11,7 @@ dictionary = PyDictionary()
 translator = Translator(to_lang="Arabic")
 
 # Open a text
-story = open('1.txt', 'r')
+story = open('1v2.txt', 'r')
 
 # The following line is to find the rtf unicode for any char
 # print(u'RTF and unicode mix just fine! \🕵 '.encode('rtfunicode'))
@@ -43,8 +43,12 @@ for word in text:
         else:
             print(meaning)
 
+        # words_file.write((u'ترجمة قوقل:' + str(dictionary.translate(word,'ar')) + u' \n'))
+        words_file.write(
+            (('ترجمة قوقل: ' + str(dictionary.translate(word, 'ar')) + ' \n').encode('rtfunicode')).decode())
+
         translation = translator.translate(word) + ' \n'
-        if translation.find('YMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY.'):
+        if ('YMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY.') in translation:
             words_file.write('$'*30)
             break
         else:
@@ -52,9 +56,7 @@ for word in text:
             # 🕵
             words_file.write('\\u-10179\\u-8843\\u-497 '*30 + '\\u10\\u10')
 
-        # words_file.write((u'ترجمة قوقل:' + str(dictionary.translate(word,'ar')) + u' \n'))
-        words_file.write(
-            (('ترجمة قوقل: ' + str(dictionary.translate(word, 'ar')) + ' \n').encode('rtfunicode')).decode())
+
 
 words_file.write('}')
 
