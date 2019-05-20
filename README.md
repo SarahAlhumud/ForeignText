@@ -64,7 +64,7 @@ I wrote this script to simplify reading Sherlock Holmes stories and novels.
 ## Usage
 **`main.py` file:**
 
-To set text's language and translation's language, in line 7,8:
+To set text's language and translation's language, in lines 7,8:
 ```
 from_language = 'en'
 to_language = 'ar'
