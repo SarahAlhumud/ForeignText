@@ -37,7 +37,7 @@ for i, story in enumerate(stories):
     print('###'*30)
     print(i)
     print(story)
-    f = open(str(i) +'.txt', 'w')
+    f = open('Stories/'+str(i) +'.txt', 'w')
     f.write(story)
     f.close()
 
