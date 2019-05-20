@@ -79,7 +79,7 @@ To change output's name and title, in line 22. Change it to string:
 ``` 
 story_title = story.readline().strip().strip('— ')
 ```
-<br>
+
 
 **`TextExtraction.py` file:**
 

@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="455f3e5a-d0dc-4b6f-aa3a-7067b978c1e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stories/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sherlock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sherlock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.He was up again in a moment, and with convulsive strength he seized Holmes.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.THE ADVENTURE OF THE EMPTY HOUSE.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1v3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextExtraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +42,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="346">
-                <caret line="61" column="28" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="28" />
+              <first_editor relative-caret-position="224">
+                <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               </first_editor>
               <second_editor />
             </state>
@@ -92,6 +70,7 @@
         <option value="$PROJECT_DIR$/Stories/example.txt" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -224,7 +203,7 @@
       <workItem from="1557184727256" duration="4000" />
       <workItem from="1557352965351" duration="1121000" />
       <workItem from="1557359749029" duration="35000" />
-      <workItem from="1558226197354" duration="8352000" />
+      <workItem from="1558226197354" duration="8560000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1557019655401</created>
@@ -233,11 +212,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557019655401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add README file">
+      <created>1558327532816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558327532816</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modify README file">
+      <created>1558327730866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558327730866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12020000" />
+    <option name="totallyTimeSpent" value="12228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -280,7 +273,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
+    <MESSAGE value="Add README file" />
+    <MESSAGE value="Modify README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify README file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/0.txt">
@@ -341,11 +336,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="346">
-            <caret line="61" column="28" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="28" />
+          <first_editor relative-caret-position="224">
+            <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           </first_editor>
           <second_editor />
         </state>
